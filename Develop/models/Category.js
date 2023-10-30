@@ -12,6 +12,7 @@ Category.init(
       autoIncrement: true,
       primaryKey: true,
       allowNull: false,
+      onDelete: 'CASCADE',
 
     },
     category_name: {
